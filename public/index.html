@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of a UI/UX designer with expertise in WordPress, HTML, CSS, JavaScript, Photoshop, Illustrator, SEO, Domaining, and Website Maintenance" />
+  <title>UI/UX Designer Portfolio</title>
+  <link rel="stylesheet" href="/styles/portfolio.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section (Hero) -->
+  <header class="hero" id="home">
+    <div class="container">
+      <div class="hero-wrapper">
+        <div class="hero-content">
+          <div class="experience-badge animate-badge">
+            <span class="number">3</span>
+            <span class="text">Years of<br>Experience</span>
+          </div>
+          <h1 class="animate-text">Hey, I'm a <span class="highlight">UI/UX</span> Designer</h1>
+          <p class="animate-text-delay">Crafting user-friendly and visually stunning digital experiences with a passion for intuitive design.</p>
+          <div class="cta-buttons animate-text-delay">
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <a href="mailto:designer@example.com" class="btn btn-outline">Let's Chat</a>
+          </div>
+        </div>
+        <div class="hero-image animate-image">
+          <div class="profile-bg"></div>
+          <img src="ana.png" alt="UI/UX Designer Portrait" class="profile-photo" />
+          <div class="floating-shape shape1"></div>
+          <div class="floating-shape shape2"></div>
+          <div class="floating-shape shape3"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="animate-text">My Services</h2>
+      <p class="animate-text-delay">Delivering tailored solutions to enhance user experience, performance, and engagement.</p>
+      <div class="services-grid">
+        <div class="service-card animate-text-delay">
+          <div class="service-icon"><i class="fab fa-wordpress"></i></div>
+          <h3>WordPress Development</h3>
+          <p>Building responsive WordPress sites with custom themes, plugins, and WooCommerce for e-commerce.</p>
+          <a href="#contact" class="btn btn-outline">Request Now</a>
+        </div>
+        <div class="service-card animate-text-delay">
+          <div class="service-icon"><i class="fas fa-code"></i></div>
+          <h3>Custom Web Development</h3>
+          <p>Designing and developing websites using HTML, CSS, and JavaScript, focusing on performance and responsiveness.</p>
+          <a href="#contact" class="btn btn-outline">Request Now</a>
+        </div>
+        <div class="service-card animate-text-delay">
+          <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>UI/UX Design</h3>
+          <p>Creating engaging interfaces using Photoshop and Illustrator for seamless user experiences.</p>
+          <a href="#contact" class="btn btn-outline">Request Now</a>
+        </div>
+        <div class="service-card animate-text-delay">
+          <div class="service-icon"><i class="fas fa-tools"></i></div>
+          <h3>Website Maintenance & Optimization</h3>
+          <p>Updates, security, backups, and performance optimization through code minification and image compression.</p>
+          <a href="#contact" class="btn btn-outline">Request Now</a>
+        </div>
+        <div class="service-card animate-text-delay">
+          <div class="service-icon"><i class="fas fa-search"></i></div>
+          <h3>Search Engine Optimization (SEO)</h3>
+          <p>Improving site rankings with keyword optimization, technical SEO, and link building.</p>
+          <a href="#contact" class="btn btn-outline">Request Now</a>
+        </div>
+        <div class="service-card animate-text-delay">
+          <div class="service-icon"><i class="fas fa-globe"></i></div>
+          <h3>Domaining</h3>
+          <p>Selecting and managing domain names to enhance branding and accessibility.</p>
+          <a href="#contact" class="btn btn-outline">Request Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image animate-image">
+          <img src="about-portrait.png" alt="Designer Portrait" class="portrait" />
+          <div class="experience-badge">
+            <span class="number">3</span>
+            <span class="text">Years of<br>Experience</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="section-label animate-text">About Me</span>
+          <h2 class="animate-text">Hi, I'm John Doe</h2>
+          <p class="animate-text-delay">With 3 years of experience in UI/UX design, I specialize in creating seamless digital experiences. I offer comprehensive solutions including WordPress, web development, SEO, and domaining.</p>
+          <a href="#contact" class="btn btn-primary animate-text-delay">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="featured-work" id="projects">
+    <div class="container">
+      <span class="section-label animate-text">Portfolio</span>
+      <h2 class="animate-text">Featured Projects</h2>
+      <p class="animate-text-delay">Explore some of my recent work, showcasing creativity and user-centered design.</p>
+      <div class="project-filter animate-text-delay">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wordpress">WordPress</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX</button>
+        <button class="filter-btn" data-filter="seo">SEO</button>
+      </div>
+      <div class="featured-work-showcase">
+        <div class="project-item animate-image show" data-category="wordpress">
+          <img src="project1.png" alt="WordPress Project" class="showcase-image" />
+          <h3>Commercial WordPress Site</h3>
+          <p>Custom WooCommerce site with a responsive theme.</p>
+        </div>
+        <div class="project-item animate-image show" data-category="web">
+          <img src="project2.png" alt="Web Development Project" class="showcase-image" />
+          <h3>Custom Web App</h3>
+          <p>Web application built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-item animate-image show" data-category="uiux">
+          <img src="project3.png" alt="UI/UX Design Project" class="showcase-image" />
+          <h3>Mobile App Interface</h3>
+          <p>App interface mockup designed using Photoshop.</p>
+        </div>
+        <div class="project-item animate-image show" data-category="seo">
+          <img src="project4.png" alt="SEO Project" class="showcase-image" />
+          <h3>SEO Optimization</h3>
+          <p>Improved commercial site rankings with technical SEO and keywords.</p>
+        </div>
+      </div>
+      <a href="#projects" class="link-arrow animate-text-delay">View All Projects <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section" style="padding: 3rem 0; background: #fff;">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for collaborations or projects!</p>
+      <form action="mailto:designer@example.com" method="post" enctype="text/plain" style="max-width: 400px;">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem;" /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem;" /><br /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 0.5rem;"></textarea><br /><br />
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
